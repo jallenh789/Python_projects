@@ -9,20 +9,11 @@ bash
 Copy
 Edit
 /python-projects/
-│
-├── project1/            # Example: CLI Task tracker
-│   ├── main.py
-│   └── README.md
-│
-├── project2/            # Example: 
-│   ├── scraper.py
-│   └── README.md
-│
-├── project3/            # Example: 
-│   ├── app.py
-│   └── README.md
-│
-└── README.md            # This file
+
+project1           # Example: CLI Task tracker
+main.py
+  └README.md
+
 Each subfolder includes:
 
 Its own README.md
