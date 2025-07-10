@@ -11,7 +11,7 @@ Edit
 /python-projects/
 
 # project1: CLI Task tracker
-# project2: ------
+# project2: API weather app
 # project3: ------
 
 
