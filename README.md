@@ -11,8 +11,8 @@ Edit
 /python-projects/
 
 # project1: CLI Task tracker
-# project2: CLI Task tracker
-# project3: CLI Task tracker
+# project2: ------
+# project3: ------
 
 
 Each subfolder includes:
