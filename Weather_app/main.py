@@ -3,8 +3,9 @@ from tkinter import messagebox
 import requests
 
 # Replace with your OpenWeatherMap API key
-API_KEY = 'your_api_key_here'
+API_KEY = 'api_key_here'
 BASE_URL = 'https://api.openweathermap.org/data/2.5/weather'
+
 
 def get_weather(city):
     params = {
@@ -30,6 +31,7 @@ def get_weather(city):
     except Exception as e:
         return {'error': str(e)}
 
+
 def show_weather():
     city = city_entry.get().strip()
     if not city:
@@ -49,6 +51,7 @@ def show_weather():
         )
         result_label.config(text=result)
 
+
 # GUI setup
 root = tk.Tk()
 root.title("Weather App")
@@ -60,7 +63,8 @@ tk.Label(root, text="Enter city:", font=('Arial', 12)).pack(pady=10)
 city_entry = tk.Entry(root, width=25, font=('Arial', 12))
 city_entry.pack()
 
-tk.Button(root, text="Get Weather", command=show_weather, font=('Arial', 12)).pack(pady=10)
+tk.Button(root, text="Get Weather", command=show_weather,
+          font=('Arial', 12)).pack(pady=10)
 
 result_label = tk.Label(root, text="", font=('Arial', 11), justify="left")
 result_label.pack(pady=10)
