@@ -10,9 +10,10 @@ Copy
 Edit
 /python-projects/
 
-project1           # Example: CLI Task tracker
-main.py
-  └README.md
+# project1: CLI Task tracker
+# project2: CLI Task tracker
+# project3: CLI Task tracker
+
 
 Each subfolder includes:
 
